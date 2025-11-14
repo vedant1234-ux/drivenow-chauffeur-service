@@ -1,19 +1,21 @@
-# 🚗 DriveNow – Professional Chauffeur Service
+# 🚗 DriveNow – Professional Chauffeur Booking Service
 
-DriveNow is a modern web application that allows users to book trained, verified drivers for their personal vehicles. Built with React, TypeScript, and Tailwind CSS, it provides a fast, smooth, and user-friendly booking experience.
+DriveNow is a modern, high-performance web application designed to help users book trained and verified chauffeurs for their personal vehicles.
 
-🔗 **Repository**: [https://github.com/vedant1234-ux/drivenow-chauffeur-service](https://github.com/vedant1234-ux/drivenow-chauffeur-service)
+Built with React, TypeScript, Vite, and Tailwind CSS, it offers a smooth, intuitive, and reliable booking experience.
+
+🔗 **GitHub Repository**: [https://github.com/vedant1234-ux/drivenow-chauffeur-service](https://github.com/vedant1234-ux/drivenow-chauffeur-service)
 
 🌐 **Live Demo**: [https://drivenow-chauffeur-service-gryq.vercel.app](https://drivenow-chauffeur-service-gryq.vercel.app)
 
 ## ✨ Features
 
-- Book Professional Drivers for your own car
-- Trip Scheduling with pickup, destination, date & duration
-- Clean & Responsive UI (mobile-first)
-- Smooth Navigation with modern animations
-- Driver Safety & Verification indicators
-- Fast & Optimized with Vite
+- 🚘 Book verified, professional drivers for your own car
+- 📅 Trip scheduling with pickup, destination, date & trip duration
+- 📱 Modern, clean, mobile-first UI
+- ⚡ Smooth page transitions & animations
+- 🛡️ Driver safety, verification & ratings
+- 🚀 Ultra-fast performance with Vite
 
 ## 🛠 Tech Stack
 
@@ -23,30 +25,30 @@ DriveNow is a modern web application that allows users to book trained, verified
 - Tailwind CSS
 - shadcn/ui
 
-## 📦 Installation
+## 📦 Installation & Setup
 
-### 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/vedant1234-ux/drivenow-chauffeur-service.git
 cd drivenow-chauffeur-service
 ```
 
-### 2. Install Dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Start Development Server
+### 3. Start the development server
 
 ```bash
 npm run dev
 ```
 
-👉 Default URL: http://localhost:8080
+➡️ **App runs at**: http://localhost:8080
 
-### 4. Build for Production
+### 4. Build for production
 
 ```bash
 npm run build
@@ -71,19 +73,17 @@ src/
 
 ## 🚀 Deployment
 
-### ✅ Live Deployment
+### ✅ Vercel Deployment (Live)
 
-The application is currently deployed on **Vercel**:
+The project is deployed on Vercel, with automatic updates on push to main.
 
 🌐 **Production URL**: [https://drivenow-chauffeur-service-gryq.vercel.app](https://drivenow-chauffeur-service-gryq.vercel.app)
 
-The deployment is automatically updated when you push to the `main` branch.
-
-### Deploy to Other Platforms
+### Deploy on Other Platforms
 
 #### Vercel (Recommended)
 
-- Import your GitHub repo
+- Import GitHub repo
 - Vercel auto-detects Vite
 - Deploy instantly
 
@@ -91,33 +91,39 @@ The deployment is automatically updated when you push to the `main` branch.
 
 ```bash
 npm run build
-# Deploy the dist folder
+# Upload the /dist folder in Netlify dashboard
 ```
 
-#### Other Options
+#### Other supported platforms
 
 - GitHub Pages
 - Firebase Hosting
 - AWS S3 + CloudFront
 
-### Build Configuration
+## ⚙️ Build & Config Notes
 
-This project includes:
-- `.npmrc` - Configured for legacy peer deps to avoid integrity issues
-- `vercel.json` - Custom build command with force install flags
+This project includes additional build configuration for smoother deployment:
+
+- **`.npmrc`**
+  - Enables legacy peer deps to avoid dependency conflicts
+  - Prevents Vercel integrity failures
+
+- **`vercel.json`**
+  - Custom build command with `--force`
+  - Ensures clean install even when dependency metadata changes
 
 ## 🤝 Contributing
 
-1. Fork this repository
-2. Create a new branch:
+1. Fork the repository
+2. Create your feature branch:
    ```bash
    git checkout -b feature/new-feature
    ```
-3. Commit changes:
+3. Commit your changes:
    ```bash
    git commit -m "Add new feature"
    ```
-4. Push and open a Pull Request
+4. Push the branch and open a Pull Request
 
 ## 📝 License
 
@@ -125,22 +131,6 @@ This project is licensed under the MIT License.
 
 ## 📞 Support
 
-For issues or questions:
+For help, suggestions or issues:
 
-📧 Email: support@drivenow.com
-
-## 🐛 Troubleshooting
-
-### Vercel Build Issues
-
-If you encounter npm integrity errors during Vercel deployment:
-- The project includes `.npmrc` and `vercel.json` configured to handle these issues
-- The build uses `--force` flag to bypass corrupted package checks
-- If issues persist, try clearing Vercel's build cache
-
-### Local Development
-
-If you encounter dependency issues locally:
-```bash
-npm install --legacy-peer-deps
-```
+📧 support@drivenow.com
